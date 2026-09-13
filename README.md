@@ -1,5 +1,6 @@
-**Coca-Cola Sales Analysis Using Excel
-**
+**Coca-Cola Sales Analysis Using Excel**
+
+
 📊 **Project Overview**
 
 This project analyzes Coca-Cola sales data across U.S. retailers,
@@ -80,8 +81,8 @@ Time period                             2021
 Missing values identified                  0
 Exact duplicate records identified         0
 
-🧹 **Data Cleaning & Preparation
-**
+🧹 **Data Cleaning & Preparation**
+
 The project includes the following preparation steps:
 
 Review headers and remove blank/non-data rows.
@@ -118,8 +119,8 @@ Calculated fields
 
 =MONTH(Invoice_Date)
 
-📌 **Key KPIs
-**
+📌 **Key KPIs**
+
 KPI                                              Result
 
 Total Sales                          $8,684,027.50
