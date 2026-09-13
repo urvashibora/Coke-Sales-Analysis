@@ -1,12 +1,12 @@
-Coca-Cola Sales Analysis Using Excel
-
-📊 Project Overview
+**Coca-Cola Sales Analysis Using Excel
+**
+📊 **Project Overview**
 
 This project analyzes Coca-Cola sales data across U.S. retailers,
 regions, states, cities, beverage brands, and months using Microsoft
 Excel.
 
-Business question: How can Coca-Cola optimize sales and
+**Business question:** How can Coca-Cola optimize sales and
 profitability across U.S. retailers?
 
 The analysis examines revenue, sales volume, operating profit, operating
@@ -14,7 +14,7 @@ margin, pricing, geographic performance, retailer performance, brand
 performance, and monthly trends, and converts the results into
 actionable business recommendations.
 
-🎯 Business Objectives
+🎯 **Business Objectives**
 
 Understand sales variation by retailer, region, state, brand, and
 time.
@@ -33,12 +33,12 @@ conditional formatting, and slicers.
 
 Translate findings into business recommendations.
 
-🗂️ Dataset
+🗂️ **Dataset**
 
 The supplied dataset contains 3,888 records covering 2 January
 2021 to 25 December 2021.
 
-Main dimensions
+**Main dimensions**
 
 Retailer
 
@@ -56,7 +56,7 @@ Beverage Brand
 
 Month
 
-Main measures
+**Main measures**
 
 Price per Unit
 
@@ -80,8 +80,8 @@ Time period                             2021
 Missing values identified                  0
 Exact duplicate records identified         0
 
-🧹 Data Cleaning & Preparation
-
+🧹 **Data Cleaning & Preparation
+**
 The project includes the following preparation steps:
 
 Review headers and remove blank/non-data rows.
@@ -118,8 +118,8 @@ Calculated fields
 
 =MONTH(Invoice_Date)
 
-📌 Key KPIs
-
+📌 **Key KPIs
+**
 KPI                                              Result
 
 Total Sales                          $8,684,027.50
@@ -146,7 +146,7 @@ Example formulas
 
 =CORREL(Data!I6:I3893,Data!K6:K3893)
 
-🏪 Retailer Analysis
+🏪 **Retailer Analysis**
 
 Retailers were compared using Total Sales, Units Sold, Operating Profit,
 and Operating Margin.
@@ -162,7 +162,7 @@ Insight: Sodapop is the largest retailer by sales and operating
 profit, contributing approximately 50.7% of total sales. BevCo has the
 highest retailer margin at approximately 40.6%.
 
-🥤 Brand Analysis
+🥤 **Brand Analysis**
 
 Brand                   Total Sales   Operating Profit   Avg. Margin
 
@@ -176,7 +176,7 @@ Fanta                $1,031,650.00       $372,825.63         36.2%
 Insight: Coca-Cola is the leading brand by both sales and operating
 profit, contributing approximately 23.2% of total sales.
 
-🌎 Regional Analysis
+🌎 **Regional Analysis**
 
 Region           Total Sales   Operating Profit   Avg. Margin
 
@@ -190,7 +190,7 @@ Insight: West is the largest revenue-generating region and has the
 highest operating profit, while South has the strongest operating
 margin.
 
-🗺️ State-Level Analysis
+🗺️ **State-Level Analysis**
 
 Selected findings:
 
@@ -206,7 +206,7 @@ margin is relatively strong. This suggests that low sales may be related
 to demand, market size, or distribution coverage rather than poor
 profitability.
 
-📅 Monthly & Seasonal Analysis
+📅 **Monthly & Seasonal Analysis**
 
 Key findings:
 
@@ -222,7 +222,7 @@ September and October, and rebound during November and December.
 Business implication: Coca-Cola can use these patterns for inventory
 planning, distribution planning, and promotional timing.
 
-💰 Pricing Analysis
+💰 **Pricing Analysis**
 
 A scatter plot was used to examine the relationship between Price per
 Unit and Units Sold.
@@ -251,7 +251,7 @@ The price-versus-total-sales correlation is approximately 0.654,
 which is a stronger association, but it should also not be interpreted
 as proof of causation.
 
-📊 Visualizations
+📊 **Visualizations**
 
 Recommended Excel visuals:
 
@@ -270,7 +270,7 @@ Scatter plot with trendline: Price per Unit vs Units Sold.
 Pivot Tables + Slicers: Interactive analysis by Retailer,
 Region, Brand, and Month.
 
-🔄 Pivot Table Structure
+🔄 **Pivot Table Structure**
 
 Retailer Performance
 
@@ -307,7 +307,7 @@ Rows: State
 Values: Sum of Total Sales, Sum of Operating Profit, Average
 Operating Margin.
 
-💡 Key Business Insights
+💡 **Key Business Insights**
 
 1. Retailer concentration
 
@@ -352,7 +352,7 @@ Nebraska has low sales but a relatively strong margin.
 Action: Investigate market coverage and demand before reducing
 investment.
 
-🚀 Recommendations
+🚀 **Recommendations**
 
 Protect high-value retailer relationships.
 
@@ -372,7 +372,7 @@ Avoid relying on price alone to explain sales volume.
 Evaluate sales and profitability together when making market
 decisions.
 
-🧰 Excel Skills Demonstrated
+🧰 **Excel Skills Demonstrated**
 
 Data cleaning and validation
 
@@ -416,7 +416,7 @@ KPI analysis
 
 Trend and profitability analysis
 
-📁 Workbook Structure
+📁 **Workbook Structure**
 
 Sheet                               Purpose
 
@@ -463,7 +463,7 @@ A useful storytelling framework is:
 
 Data → Observation → Business Meaning → Recommendation
 
-⚠️ Limitations
+⚠️ **Limitations**
 
 The dataset covers only 2021, so long-term year-over-year growth
 cannot be assessed.
@@ -477,7 +477,7 @@ Correlation identifies association and does not establish causation.
 Additional years and operational variables would support deeper
 forecasting and causal analysis.
 
-🔮 Future Analysis
+🔮 **Future Analysis**
 
 With additional data, the project could be extended to:
 
@@ -501,7 +501,7 @@ Profitability forecasting
 
 Regional demand forecasting
 
-👤 Project Context
+👤 **Project Context**
 
 This is an Excel-based business analytics project demonstrating the
 complete workflow:
@@ -510,7 +510,7 @@ Problem Definition → Data Understanding → Data Cleaning → KPI
 Development → Exploratory Analysis → Visualization → Insights → Business
 Recommendations
 
-⭐ Key Takeaway
+⭐ **Key Takeaway**
 
 Coca-Cola should optimize for both sales growth and profitability
 rather than focusing on revenue alone.
